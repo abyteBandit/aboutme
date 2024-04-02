@@ -16,12 +16,17 @@
 }
 body{
     background-color: #101820;
+    background-image: url(SVGs/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-attachment: fixed;
+    background-size: cover;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 3px 20px 10px #0f151a;
+    /* box-shadow: 0px 3px 20px 10px #0f151a; */
 }
 #centerLogo{
     text-decoration: none;
@@ -55,12 +60,12 @@ header{
     color: #fee715;
 }
 .secondBox{
-    background-color: #c9c9c9;
+    background-color: #10182096;
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0px 3px 3px 2px #101820;
+    /* box-shadow: inset 0px 3px 3px 2px #101820; */
 }
 .secondBox > span > span{
     display: block;
@@ -68,7 +73,7 @@ header{
 .secondBox h1{
     font-family: 'FontTwo';
     font-size: 2.3rem;
-    color: #101820;
+    color: #e2d9cc;
     text-shadow: 2px 2px 0px #0000004d;
     text-decoration: underline;
     font-weight: bold;
@@ -78,7 +83,7 @@ header{
 .secondBox h2{
     font-family: 'FontTwo';
     font-size: 1.6rem;
-    color: #1b2937;
+    color: #fee715;
     text-shadow: 2px 2px 0px #0000004d;
     text-decoration: underline;
     margin: 1% 0;
@@ -91,7 +96,8 @@ header{
     font-weight: bold;
     font-family: 'FontThree';
     font-size: 1rem;
-    text-shadow: 2px 2px 1px #2b2b2b27;
+    /* text-shadow: 2px 2px 1px #2b2b2b27; */
+    text-shadow: -1px -1px 6px #000000;
     display: inline;
 }
 .sectext{
@@ -103,18 +109,18 @@ header{
     display: inline;
 }
 .thirdBox{
-    background-color: #c9c9c9;
+    background-color: #10182096;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    box-shadow: inset 0px 3px 3px 2px #101820;
+    /* box-shadow: inset 0px 3px 3px 2px #101820; */
 }
 
 .thirdBox h1{
     font-family: 'FontTwo';
     font-size: 2.3rem;
-    color: #101820;
+    color: #e2d9cc;
     text-shadow: 2px 2px 0px #0000004d;
     text-decoration: underline;
     font-weight: bold;
@@ -137,21 +143,21 @@ ul{
     font-size: 1.3rem;
     font-weight: bold;
     font-family: 'FontTwo';
-    color: black;
+    color: #fee715;
 }
 .fourthBox{
-    background-color: #c9c9c9;
+    background-color: #10182096;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    box-shadow: inset 0px 3px 3px 2px #101820;
+    /* box-shadow: inset 0px 3px 3px 2px #101820; */
 
 }
 .fourthBox h1{
     font-family: 'FontTwo';
     font-size: 2.3rem;
-    color: #101820;
+    color: #e2d9cc;
     text-shadow: 2px 2px 0px #0000004d;
     text-decoration: underline;
     font-weight: bold;
@@ -177,27 +183,33 @@ ul{
 }
 #instagram:hover{
     box-sizing: border-box;
-    border: 0.2rem solid white;
+    /* border: 0.2rem solid white; */
     border-radius: 3rem;
     background-color: #f04c5dd1;
     box-shadow: 2px 3px 20px #f04c5dd1;
     color: white;
+    transition-duration: 70ms;
+    transition-delay: 20ms;
 }
 #linkedin:hover{
     box-sizing: border-box;
-    border: 0.2rem solid white;
+    /* border: 0.2rem solid white; */
     border-radius: 3rem;
     background-color: #0078d473;
     box-shadow: 2px 3px 20px #0078d473;
     color: white;
+    transition-duration: 70ms;
+    transition-delay: 20ms;
 }
 #youtube:hover{
     box-sizing: border-box;
-    border: 0.2rem solid white;
+    /* border: 0.2rem solid white; */
     border-radius: 3rem;
     background-color: #ff242482;
     box-shadow: 2px 3px 20px #ff242482;
     color: white;
+    transition-duration: 70ms;
+    transition-delay: 20ms;
 }
 footer p{
     font-family: LogoFont;
@@ -205,6 +217,8 @@ footer p{
     color: #c5020c;
     font-size: 1.5rem;
     padding: 1rem;
+    background-color: #10182096;
+    text-shadow: 0 0 14px #ff959594;
 }
 @media only screen and (max-width: 600px){
     .firstBox{
