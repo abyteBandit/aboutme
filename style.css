@@ -1,0 +1,258 @@
+@font-face {
+    font-family: LogoFont;
+    src: url(Fonts/LilitaOne-Regular.ttf);
+}
+@font-face {
+    font-family: FontTwo;
+    src: url(Fonts/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: FontThree;
+    src: url(Fonts/Outfit-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #101820;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 20px 10px #0f151a;
+}
+#centerLogo{
+    text-decoration: none;
+    color: #fee715;
+    font-family: LogoFont;
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px #c5020c;
+    margin: 1%;
+}
+.image img{
+    width: 30vw;
+}
+.firstBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 87vh;
+}
+.firstBox h1{
+    font-family: FontThree;
+    color: #c5020c;
+    font-size: 3rem;
+    text-shadow: 3px 3px 0px black;
+}
+.firstBox h2{
+    font-family: FontTwo;
+    color: #c5020c;
+    text-shadow: 3px 3px 0px black;
+}
+#nameh1{
+    color: #fee715;
+}
+.secondBox{
+    background-color: #c9c9c9;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 3px 3px 2px #101820;
+}
+.secondBox > span > span{
+    display: block;
+}
+.secondBox h1{
+    font-family: 'FontTwo';
+    font-size: 2.3rem;
+    color: #101820;
+    text-shadow: 2px 2px 0px #0000004d;
+    text-decoration: underline;
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 5% 0;
+}
+.secondBox h2{
+    font-family: 'FontTwo';
+    font-size: 1.6rem;
+    color: #1b2937;
+    text-shadow: 2px 2px 0px #0000004d;
+    text-decoration: underline;
+    margin: 1% 0;
+}
+.secondBox > span{
+    padding: 2%;
+}
+.text1{
+    color: #c5020c;
+    font-weight: bold;
+    font-family: 'FontThree';
+    font-size: 1rem;
+    text-shadow: 2px 2px 1px #2b2b2b27;
+    display: inline;
+}
+.sectext{
+    font-size: 1rem;
+    font-family: 'FontThree';
+    font-weight: lighter;
+    color: #fee715;
+    text-shadow: 2px 2px 1px #2b2b2b8a;
+    display: inline;
+}
+.thirdBox{
+    background-color: #c9c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: inset 0px 3px 3px 2px #101820;
+}
+
+.thirdBox h1{
+    font-family: 'FontTwo';
+    font-size: 2.3rem;
+    color: #101820;
+    text-shadow: 2px 2px 0px #0000004d;
+    text-decoration: underline;
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 5% 0;
+}
+.thirdBox img{
+    width: 2rem;
+}
+ul{
+    list-style: none;
+    padding: 0.5rem;
+}
+.thirdBox span{
+    margin: 2%;
+    padding: 2%;
+}
+.thirdBox span li{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'FontTwo';
+    color: black;
+}
+.fourthBox{
+    background-color: #c9c9c9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: inset 0px 3px 3px 2px #101820;
+
+}
+.fourthBox h1{
+    font-family: 'FontTwo';
+    font-size: 2.3rem;
+    color: #101820;
+    text-shadow: 2px 2px 0px #0000004d;
+    text-decoration: underline;
+    font-weight: bold;
+    align-self: flex-start;
+    margin: 5% 0;
+}
+.fourthBox img{
+    width: 15vw;
+    display: block;
+}
+.fourthBox a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    text-decoration: none;
+    color: #c5020c;
+    font-family: 'FontThree';
+    font-size: 1.5rem;
+    padding: 1vw;
+    box-sizing: border-box;
+}
+#instagram:hover{
+    box-sizing: border-box;
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+    background-color: #f04c5dd1;
+    box-shadow: 2px 3px 20px #f04c5dd1;
+    color: white;
+}
+#linkedin:hover{
+    box-sizing: border-box;
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+    background-color: #0078d473;
+    box-shadow: 2px 3px 20px #0078d473;
+    color: white;
+}
+#youtube:hover{
+    box-sizing: border-box;
+    border: 0.2rem solid white;
+    border-radius: 3rem;
+    background-color: #ff242482;
+    box-shadow: 2px 3px 20px #ff242482;
+    color: white;
+}
+footer p{
+    font-family: LogoFont;
+    text-align: center;
+    color: #c5020c;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+@media only screen and (max-width: 600px){
+    .firstBox{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .firstBox h1{
+        font-size: 2rem;
+    }
+    .image img{
+        width: 60vw;
+        margin: 2rem 0;
+    }
+    .secondBox{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5vw;
+    }
+    .thirdBox{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 5vw;
+    }
+    .fourthBox{
+        flex-direction: column;
+        padding: 5vw;
+    }
+    .fourthBox a{
+        padding: 7vw 4vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
